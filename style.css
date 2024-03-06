@@ -1,0 +1,90 @@
+body{
+    font-family:  arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(sunset-570881_640.jpg) no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+form{
+    background-color: white;
+    padding: 0px;
+    margin:  0px;
+    position: relative;
+    
+}
+.milieu{
+    max-width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+h3{
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+input{
+    
+    padding: 10px 10px 5px 5px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    outline: none;
+    
+}
+.face{
+    background-color: white;
+    padding: 0px;
+    padding: 10px 10px 10px 20px;
+    margin: 10PX;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+button{
+    border: none;
+    width: 164px;
+    height: 50px;
+    margin-top: 40px;
+    padding-left: 0;
+    margin: auto;
+    color: white;
+    background-color: black;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange input{
+    width: 92%;
+}
+.rose {
+    display: flex;
+    flex-direction: row;
+    gap: 10PX;
+    
+}
+.icone{
+    position: absolute;
+    right: 5px;
+    transform: translate(-5OPX);
+    padding: 10PX;
+    
+}
+@media screen and (max-width:700PX) {
+    .milieu{
+         display: none;
+    }
+    .icone{
+        display: flex;
+        flex-direction: row;
+        left: 340PX;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+}
