@@ -76,7 +76,7 @@ button{
     padding: 10PX;
     
 }
-@media screen and (max-width:700PX) {
+@media screen and (max-width:700PX) and (min-width:362PX) {
     .milieu{
          display: none;
     }
@@ -88,4 +88,17 @@ button{
     input{
         width: 100%;
     }
+}
+@media screen and (max-width:370px) {
+    .milieu{
+        display: none;
+   }
+   .icone{
+       display: flex;
+       flex-direction: row;
+       left: 274px;
+   }
+   input{
+       width: 100%;
+   }
 }
