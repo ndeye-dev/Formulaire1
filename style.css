@@ -83,8 +83,9 @@ button{
     .icone{
         display: flex;
         flex-direction: row;
-        left: 340PX;
-        padding-left: 5px;
-        padding-right: 10px;
+        left: 299px;
+    }
+    input{
+        width: 100%;
     }
 }
